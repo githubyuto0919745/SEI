@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@500&display=swap');
+
+
+nav a, .home-title,.information, h2{
+    font-family: 'Oswald';
+}
+.description-home, footer{
+    font-family:'Alumni Sans Collegiate One' ;
+}
 
 #content{
     max-width: 1600px;
@@ -104,11 +113,12 @@ h2{
 .description-home{
     grid-column: 6/10;
     grid-row: 6/7;
-    color:white;
+    color:#395e66;
     background-color:black;
     box-shadow: 5px 5px 10px #8ca0d7;
     width: 500px;
-    height:250px;
+    height:400px;
+    font-size: 25px;
 }
 .content{
     display:grid;
